@@ -24,9 +24,7 @@ const Login: React.FC = () => {
       <ContainerInput>
         <Input name="nome" placeholder="Nome" />
         <Input name="email" placeholder="E-mail" />
-        <Input name="telefone" placeholder="Telefone" />
         <Input name="password" placeholder="Senha" />
-        <Input name="confirmPassword" placeholder="Confirme a senha" />
       </ContainerInput>
 
       <ContainerButton>
@@ -43,7 +41,7 @@ const Login: React.FC = () => {
             console.log('Salvo!!!');
           }}
         >
-          <ButtonText>CADASTRAR</ButtonText>
+          <ButtonText>LOGAR</ButtonText>
         </ButtonRegister>
       </ContainerButton>
     </Container>

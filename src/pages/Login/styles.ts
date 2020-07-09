@@ -26,17 +26,20 @@ export const ContainerButton = styled.View`
   justify-content: space-between;
 `;
 
-export const ButtonBack = styled(RectButton)`
+const ButtonDefault = styled(RectButton)`
   width: 50%;
   height: 60px;
   border-radius: 50px;
-  background: ${Colors.twinkleBlue};
   justify-content: center;
   align-items: center;
   margin: 5px;
 `;
 
-export const ButtonRegister = styled(RectButton)`
+export const ButtonBack = styled(ButtonDefault)`
+  background: ${Colors.twinkleBlue};
+`;
+
+export const ButtonRegister = styled(ButtonDefault)`
   width: 50%;
   height: 60px;
   border-radius: 50px;
